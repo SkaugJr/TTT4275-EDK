@@ -1,18 +1,18 @@
-x1all = load('class_1','-ascii');
-x2all = load('class_2','-ascii');
-x3all = load('class_3','-ascii');
+x1all = load('IrisData/class_1','-ascii');
+x2all = load('IrisData/class_2','-ascii');
+x3all = load('IrisData/class_3','-ascii');
 
-% x1= [x1all(:,4) x1all(:,1) x1all(:,2)];
-% x2= [x2all(:,4) x2all(:,1) x2all(:,2)];
-% x3= [x3all(:,4) x3all(:,1) x3all(:,2)];
+x1= [x1all(:,4) x1all(:,1) x1all(:,2)];
+x2= [x2all(:,4) x2all(:,1) x2all(:,2)];
+x3= [x3all(:,4) x3all(:,1) x3all(:,2)];
 
-%x1= [x1all(:,3) x1all(:,4)];
-%x2= [x2all(:,3) x2all(:,4)];
-%x3= [x3all(:,3) x3all(:,4)];
+% x1= [x1all(:,3) x1all(:,4)];
+% x2= [x2all(:,3) x2all(:,4)];
+% x3= [x3all(:,3) x3all(:,4)];
 
-x1= [x1all(:,4)];
-x2= [x2all(:,4)];
-x3= [x3all(:,4)];
+% x1= [x1all(:,4)];
+% x2= [x2all(:,4)];
+% x3= [x3all(:,4)];
 
 
 [Ntot,dimx] = size(x1);
