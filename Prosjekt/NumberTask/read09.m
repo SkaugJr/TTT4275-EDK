@@ -16,7 +16,7 @@ end
 
 fclose(fid);
 
-fid =  fopen('test_images.bin','r');
+fid =  fopen('Data/test_images.bin','r');
 magic_num = fread(fid,1,'int32','ieee-be');
 num_test=fread(fid,1,'int32','ieee-be');
 row_size=fread(fid,1,'int32','ieee-be');
@@ -34,7 +34,7 @@ end
 fclose(fid);
 
 disp('labels')
-fid =  fopen('train_labels.bin','r');
+fid =  fopen('Data/train_labels.bin','r');
 magic_num = fread(fid,1,'int32','ieee-be');
 num_train=fread(fid,1,'int32','ieee-be');
  
@@ -46,7 +46,7 @@ end
 
 fclose(fid);
 
-fid =  fopen('test_labels.bin','r');
+fid =  fopen('Data/test_labels.bin','r');
 magic_num = fread(fid,1,'int32','ieee-be');
 num_test=fread(fid,1,'int32','ieee-be');
 
@@ -58,4 +58,4 @@ end
 
 fclose(fid);
 
-save data_all num_train num_test row_size col_size vec_size trainv  trainlab testv  testlab
+save Data/data_all num_train num_test row_size col_size vec_size trainv  trainlab testv  testlab
