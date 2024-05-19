@@ -2,4 +2,4 @@
 
 #### Repo brukt til øvinger og gruppeprosjekt. 
 
-Prosjekt bestående av ML-modeller som løser følgende problemer: MNIST Håndskrevne tall og Iris art. 
+Prosjekt bestående av ML-modeller som løser følgende klassifiserings problemer: MNIST Håndskrevne tall og Iris art. 
